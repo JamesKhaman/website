@@ -41,7 +41,7 @@ nav{
 }
 
 .logo{
-  width:130px;
+  width:75px;
 }
 
 nav ul li{
@@ -504,7 +504,7 @@ nav .fas{
   }
 
   .logo{
-  width: 90px;
+  width: 65px;
   margin-left: 0 auto;
   }
   
@@ -625,4 +625,5 @@ nav .fas{
   display: block;
 
 }
+
 
