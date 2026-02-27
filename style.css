@@ -27,7 +27,7 @@ body{
   right: 0;
   top:0;
   width:100%;
-  z-index:1000;
+  z-index:1;
   background:rgba(0,0,0,0.6);
   backdrop-filter:blur(6px);
   transition: .5s;
@@ -338,17 +338,17 @@ header p{
 }
 /* Home icon styling */
 .home-link{
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  font-size: 22px;
-  color: #fff;
-  padding: 10px 12px;
-  border: 1px solid #ff004f;
-  border-radius: 50%;
-  text-decoration: none;
-  z-index: 1;
-  transition: transform 0.5s ease;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 12px;
+      border: 1px solid #ff004f;
+      border-radius: 50%;
+      text-decoration: none;
+      z-index: 1;
+      transition: transform 0.5s ease;
 }
 
 .home-link:hover{
@@ -392,7 +392,7 @@ header p{
 
 .social-icons a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 28px;
   color: #fff; 
   display: inline-flex;
   align-items: center;
@@ -504,7 +504,7 @@ nav .fas{
   }
 
   .logo{
-  width: 65px;
+  width: 70px;
   margin-left: 0 auto;
   }
   
@@ -623,7 +623,4 @@ nav .fas{
   color: #61b752;
   margin-top: 14px;
   display: block;
-
 }
-
-
